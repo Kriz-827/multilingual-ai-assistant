@@ -208,8 +208,8 @@ B.Tech in Artificial Intelligence & Data Science
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/krishnendu-u-n-b68361298)
 
 **Shalvin Shabu**
-*B.Tech in Artificial Intelligence & Data Science*
-
+B.Tech in Artificial Intelligence & Data Science
+[![GitHub](https://img.shields.io/badge/GitHub-shalvin-shabu-black?logo=github)](https://github.com/shalvin-shabu)
 ---
 
 ## 📄 License
