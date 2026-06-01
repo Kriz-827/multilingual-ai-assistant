@@ -202,14 +202,22 @@ WHISPER_MODEL_PATH=path/to/finetuned/model
 
 ##  Team
 
+## 👥 Team
+
 **Krishnendu U N**
+
 B.Tech in Artificial Intelligence & Data Science
+
 [![GitHub](https://img.shields.io/badge/GitHub-Kriz--827-black?logo=github)](https://github.com/Kriz-827)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/krishnendu-u-n-b68361298)
 
+---
+
 **Shalvin Shabu**
+
 B.Tech in Artificial Intelligence & Data Science
-[![GitHub](https://img.shields.io/badge/GitHub-shalvin-shabu-black?logo=github)](https://github.com/shalvin-shabu)
+
+[![GitHub](https://img.shields.io/badge/GitHub-shalvin__shabu-black?logo=github)](https://github.com/shalvin-shabu)
 ---
 
 ## 📄 License
