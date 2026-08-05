@@ -1,22 +1,27 @@
+import axios from 'axios'
+
+const baseURL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000'
+const api = axios.create({
+  baseURL,
+  headers: {
+    'Content-Type': 'application/json',
+  },
+})
+
 export async function sendMessage(prompt) {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve({
-        success: true,
-        reply: `This is a sample response for: ${prompt}`,
-      })
-    }, 450)
-  })
+  const response = await api.post('/chat/message', { message: prompt })
+  return response.data
 }
 
 export async function uploadDocument(file) {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve({
-        success: true,
-        name: file.name,
-        size: file.size,
-      })
-    }, 450)
+  const formData = new FormData()
+  formData.append('file', file)
+
+  const response = await api.post('/documents/upload', formData, {
+    headers: {
+      'Content-Type': 'multipart/form-data',
+    },
   })
+
+  return response.data
 }
